@@ -1,0 +1,78 @@
+body{
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.nav{
+    display: flex;
+    background-color: #735F32;
+    padding: 16px;
+    align-items: center;
+}
+
+.logo.left{
+    width: 15px;
+    height: auto;
+}
+
+.title.left{
+    color: white;
+    font-size: 20px;
+    margin-left: 8px;
+}
+
+.links{
+    display: flex;
+    gap: 40px;
+    margin-left: auto;
+    font-size: 18px;
+    font-weight: 100;
+}
+
+.biography,
+.favourites{
+    text-decoration: none;
+    color: white;
+}
+
+.donate{
+    color: #735F32;
+}
+
+.intro{
+    display: flex;
+    background-color: black;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.matters{
+    display: flex;
+    flex-direction: column;
+    padding: 45px;
+    margin-left: 60px;
+}
+
+.why{
+    font-size: 50px;
+    font-weight: 200px;
+    color: #C69749;
+    background-color: black;
+    text-align: left;
+}
+
+.caption{
+    font-size: 20px;
+    font-weight: 150px;
+    color: white;
+    background-color: black;
+    text-align: left;
+}
+
+.banner{
+    width: 500px;
+    height: auto;
+    padding: 0;
+    margin: 0;
+}

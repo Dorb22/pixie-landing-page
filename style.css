@@ -7,38 +7,61 @@ body{
 
 .nav{
     display: flex;
-    background-color: #735F32;
-    padding: 16px;
+    background-color: black;
     align-items: center;
+    padding: 0 120px 0 120px;
+    margin-bottom: 30px;
+    margin-top: 20px;
+}
+
+#left{
+    display: flex;
+    align-items: center;
+    gap: 4px;
 }
 
 .logo.left{
-    width: 15px;
+    width: 18px;
     height: auto;
 }
 
 .title.left{
     color: white;
     font-size: 20px;
-    margin-left: 8px;
 }
 
 .links{
     display: flex;
-    gap: 40px;
+    align-items: center;
     margin-left: auto;
     font-size: 18px;
     font-weight: 100;
+    gap: 20px;
 }
 
 .biography,
 .favourites{
     text-decoration: none;
     color: white;
+    padding: 12px;
+}
+
+.biography:hover,
+.favourites:hover{
+    background-color: white;
+    color: #C69749;
 }
 
 .donate{
+    color: white;
+    background-color: #735F32;
+    border: 2px solid white;
+    padding: 6px;
+}
+
+.donate:hover{
     color: #735F32;
+    background-color: white;
 }
 
 .intro{
@@ -46,13 +69,13 @@ body{
     background-color: black;
     align-items: center;
     justify-content: space-between;
+    gap: 20px;
 }
 
 .matters{
     display: flex;
     flex-direction: column;
-    padding: 45px;
-    margin-left: 60px;
+    margin-left: 120px;
 }
 
 .why{
@@ -64,7 +87,7 @@ body{
 }
 
 .caption{
-    font-size: 50px;
+    font-size: 35px;
     font-weight: 150px;
     color: white;
     background-color: black;
@@ -78,30 +101,31 @@ body{
     margin: 0;
 }
 
+
 .random{
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
+    justify-content: center;
     background-color: #C69749;
     color: white;
-    border-radius: 30px;
-    gap: 15px;
-    padding: 15px;
-    margin-top: -30px;
+    padding: 40px;
+    gap: 20px;
+    border-top: 7px double white;
+    border-bottom: 7px double white;
 }
 
 .best{
-    font-size: 60px;
+    font-size: 40px;
     font-weight: 150;
+    text-align: center;
     margin: 0;
 }
 
 .info{
     display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 20px;
+    align-items: space-between;
+    gap: 30px;
 }
 
 .playing,
@@ -110,7 +134,7 @@ body{
 .sleeping{
     display: flex;
     flex-direction: column;
-    font-size: 35px;
+    font-size: 30px;
     justify-content: flex-start;
     align-items: center;
     text-align: center;
@@ -121,6 +145,31 @@ body{
 .judging.pic,
 .sleeping.pic{
     width: 150px;
-    border-radius: 10px;
     filter: drop-shadow(10px 10px 10px #735F32);
+    border: 2px double white;
+}
+
+.quote{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    padding: 120px;
+    gap: 60px;
+    background-color: #c6974920;
+}
+
+.words{
+    font-size: 40px;
+    font-style: italic;
+}
+
+#benefits{
+    font-weight: 700;
+    color: #C69749;
+}
+
+.owner{
+    font-size: 25px;
+    text-align: right;
+    color: #C69749;
 }

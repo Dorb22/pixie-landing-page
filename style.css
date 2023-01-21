@@ -3,6 +3,11 @@ body{
     display: flex;
     flex-direction: column;
     background-color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.name{
+    font-family: 'Anton', sans-serif;
 }
 
 .nav{
@@ -21,13 +26,13 @@ body{
 }
 
 .logo.left{
-    width: 18px;
+    width: 35px;
     height: auto;
 }
 
 .title.left{
     color: white;
-    font-size: 20px;
+    font-size: 35px;
 }
 
 .links{
@@ -44,24 +49,14 @@ body{
     text-decoration: none;
     color: white;
     padding: 12px;
+    padding: 10px 20px 10px 20px;
+    border-radius: 20px;
 }
 
 .biography:hover,
 .favourites:hover{
     background-color: white;
     color: #C69749;
-}
-
-.donate{
-    color: white;
-    background-color: #735F32;
-    border: 2px solid white;
-    padding: 6px;
-}
-
-.donate:hover{
-    color: #735F32;
-    background-color: white;
 }
 
 .intro{
@@ -75,23 +70,41 @@ body{
 .matters{
     display: flex;
     flex-direction: column;
+    align-items: flex-start;
     margin-left: 120px;
+    gap: 20px;
 }
 
 .why{
-    font-size: 100px;
+    font-size: 150px;
     font-weight: 200px;
     color: #C69749;
     background-color: black;
     text-align: left;
+    line-height: 150px;
 }
 
 .caption{
-    font-size: 35px;
+    font-size: 25px;
     font-weight: 150px;
     color: white;
     background-color: black;
     text-align: left;
+}
+
+.learn{
+    margin-right: auto;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    border-radius: 20px;
+    color: white;
+    background-color: #735F32;
+    border-style: none;
+}
+
+.learn:hover{
+    background-color: white;
+    color: #C69749;
 }
 
 .banner{
@@ -113,11 +126,12 @@ body{
     gap: 20px;
     border-top: 7px double white;
     border-bottom: 7px double white;
+    filter: drop-shadow(0px 10px 10px black);
 }
 
 .best{
     font-size: 40px;
-    font-weight: 150;
+    font-weight: 300;
     text-align: center;
     margin: 0;
 }
@@ -147,6 +161,7 @@ body{
     width: 150px;
     filter: drop-shadow(10px 10px 10px #735F32);
     border: 2px double white;
+    border-radius: 10px;
 }
 
 .quote{
@@ -159,17 +174,67 @@ body{
 }
 
 .words{
-    font-size: 40px;
+    font-size: 30px;
     font-style: italic;
 }
 
 #benefits{
-    font-weight: 700;
+    font-weight: 600;
     color: #C69749;
 }
 
 .owner{
-    font-size: 25px;
+    font-size: 20px;
     text-align: right;
     color: #C69749;
+}
+
+.call{
+    background-color: #C69749;
+    display: flex;
+    justify-content: center;
+}
+
+.section{
+    width: 65%;
+    padding: 30px 50px 30px 50px;
+    color: white;
+    background-color: #00000030;
+    margin: 30px 0px 30px 0px;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 10px;
+}
+
+.support{
+    font-size: 25px;
+    font-weight: 450;
+}
+
+.thanks{
+    font-size: 15px;
+}
+
+.donate{
+    padding: 1px 40px 1px 40px;
+    border: 1px solid white;
+    color: white;
+    font-size: 15px;
+    font-weight: 750;
+    background-color: #C69749;
+    border-radius: 20px;
+}
+
+.donate:hover{
+    background-color: white;
+    color: #C69749;
+}
+
+.footer{
+    background-color: #735F32;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
 }
